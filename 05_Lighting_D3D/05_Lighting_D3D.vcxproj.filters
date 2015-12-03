@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{54a46ed1-7cfc-45dc-b1a0-b2a6d02a69ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\PointLight">
+      <UniqueIdentifier>{1fd7c110-f111-43f3-8368-fbcbea9b639d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\SpotLight">
+      <UniqueIdentifier>{1ea0e032-2c19-42e7-bf8a-df31b0a637a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\DirectionalLight">
+      <UniqueIdentifier>{cd6b7421-e138-4189-8c0c-a22febf00228}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cube_modelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="indexmodelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lighting_shaderclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plane_modelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere_modelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transformationclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Modelclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cube_modelclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="indexmodelclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_shaderclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plane_modelclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere_modelclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transformationclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Modelclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PointLight\LightingDiffuse.fx">
+      <Filter>Effects\PointLight</Filter>
+    </None>
+    <None Include="PointLight\LightingPhongDiffuse.fx">
+      <Filter>Effects\PointLight</Filter>
+    </None>
+    <None Include="PointLight\LightingPhongSpecular.fx">
+      <Filter>Effects\PointLight</Filter>
+    </None>
+    <None Include="PointLight\LightingSpecular.fx">
+      <Filter>Effects\PointLight</Filter>
+    </None>
+    <None Include="SpotLight\LightingDiffuse.fx">
+      <Filter>Effects\SpotLight</Filter>
+    </None>
+    <None Include="SpotLight\LightingPhongDiffuse.fx">
+      <Filter>Effects\SpotLight</Filter>
+    </None>
+    <None Include="SpotLight\LightingPhongSpecular.fx">
+      <Filter>Effects\SpotLight</Filter>
+    </None>
+    <None Include="SpotLight\LightingSpecular.fx">
+      <Filter>Effects\SpotLight</Filter>
+    </None>
+    <None Include="DirectionaLight\LightingAmbient.fx">
+      <Filter>Effects\DirectionalLight</Filter>
+    </None>
+    <None Include="DirectionalLight\LightingPhongDiffuse.fx">
+      <Filter>Effects\DirectionalLight</Filter>
+    </None>
+    <None Include="DirectionalLight\LightingPhongSpecular.fx">
+      <Filter>Effects\DirectionalLight</Filter>
+    </None>
+    <None Include="DirectionalLight\LightingSpecular.fx">
+      <Filter>Effects\DirectionalLight</Filter>
+    </None>
+    <None Include="DirectionalLight\LightingDiffuse.fx">
+      <Filter>Effects\DirectionalLight</Filter>
+    </None>
+  </ItemGroup>
+</Project>
